@@ -28,10 +28,7 @@ class Handful(object):
             self.orange * COLORS.ORANGE.SCORE + \
             self.brown * COLORS.BROWN.SCORE + \
             self.red * COLORS.RED.SCORE
-
-    def __int__(self):
-        return get_score()
-
+    
     def __str__(self):
         return "{}: {}, {}: {}, {}: {}, {}: {}".format(
             COLORS.YELLOW.TITLE, self.yellow,
